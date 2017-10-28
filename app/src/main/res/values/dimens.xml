@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mrg_mid">25dp</dimen>
+    <dimen name="mrg_min">5dp</dimen>
+    <dimen name="mrg_low">10dp</dimen>
+    <dimen name="element_height">120dp</dimen>
+    <dimen name="element_height_landscape">110dp</dimen>
+</resources>

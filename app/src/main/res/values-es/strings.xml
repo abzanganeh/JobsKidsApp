@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">trabajosApp</string>
+    <string name="title">Trabajos Diferentes</string>
+    <string name="description">Primero, adivina cuál es el nombre de cada trabajo, luego toca para inventarlo.</string>
+    <string name="teacher_name">el Profesor, el Maestro</string>
+    <string name="lawyer_name">el Abogado</string>
+    <string name="engineer_name">el Ingeniero, Maquinar</string>
+    <string name="developer_name">el Desarrollador</string>
+    <string name="doctor_name">el Médico</string>
+    <string name="chef_name">el/la chef</string>
+</resources>

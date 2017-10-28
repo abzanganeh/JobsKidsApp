@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.pcc.alizanganeh.jobsenspapp.MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/mrg_min"
+        android:text="@string/title"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/mrg_min"
+        android:text="@string/description"
+        android:textColor="@android:color/background_dark"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:id="@+id/first_three_jobs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/description"
+        android:layout_marginTop="@dimen/mrg_low"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/teacher_content"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/element_height_landscape"
+            android:layout_margin="@dimen/mrg_min"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/teacher_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="9"
+                app:srcCompat="@drawable/teacher" />
+
+            <TextView
+                android:id="@+id/teacher_text"
+                style="@android:style/Widget.DeviceDefault.Light.TextView.SpinnerItem"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/mrg_mid"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/mrg_min"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/teacher_name" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lawyer_content"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/element_height_landscape"
+            android:layout_margin="@dimen/mrg_min"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/lawyer_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="9"
+                app:srcCompat="@drawable/lawyer" />
+
+            <TextView
+                android:id="@+id/lawyer_text"
+                style="@android:style/Widget.DeviceDefault.Light.TextView.SpinnerItem"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/mrg_mid"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/mrg_min"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/lawyer_name" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/engineer_content"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/element_height_landscape"
+            android:layout_margin="@dimen/mrg_min"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/engineer_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="9"
+                app:srcCompat="@drawable/engineer" />
+
+            <TextView
+                android:id="@+id/engineer_text"
+                style="@android:style/Widget.DeviceDefault.Light.TextView.SpinnerItem"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/mrg_mid"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/mrg_min"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/engineer_name" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/second_three_jobs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/first_three_jobs"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/developer_content"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/element_height_landscape"
+            android:layout_margin="@dimen/mrg_min"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/developer_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="9"
+                app:srcCompat="@drawable/developer" />
+
+            <TextView
+                android:id="@+id/developer_text"
+                style="@android:style/Widget.DeviceDefault.Light.TextView.SpinnerItem"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/mrg_mid"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/mrg_min"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/developer_name" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/chef_content"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/element_height_landscape"
+            android:layout_margin="@dimen/mrg_min"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/chef_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/mrg_min"
+                android:layout_weight="9"
+                app:srcCompat="@drawable/chef" />
+
+            <TextView
+                android:id="@+id/chef_text"
+                style="@android:style/Widget.DeviceDefault.Light.TextView.SpinnerItem"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/mrg_mid"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/mrg_min"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/chef_name" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/doctor_content"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/element_height_landscape"
+            android:layout_margin="@dimen/mrg_min"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/doctor_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                app:srcCompat="@drawable/doctor" />
+
+            <TextView
+                android:id="@+id/doctor_text"
+                style="@android:style/Widget.DeviceDefault.Light.TextView.SpinnerItem"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/mrg_mid"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/mrg_min"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/doctor_name" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

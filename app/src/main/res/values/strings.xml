@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">JobsApp</string>
+    <string name="title">Different Jobs</string>
+    <string name="description">First, guess what the name of each job is, then tap to figur out.</string>
+    <string name="teacher_name">Teacher</string>
+    <string name="lawyer_name">Lawyer</string>
+    <string name="engineer_name">Engineer</string>
+    <string name="developer_name">Developer</string>
+    <string name="doctor_name">Doctor</string>
+    <string name="chef_name">Chef</string>
+</resources>

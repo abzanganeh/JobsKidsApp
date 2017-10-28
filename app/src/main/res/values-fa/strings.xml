@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">شغل ها</string>
+    <string name="title">مشاغل مختلف</string>
+    <string name="description">اول، حدس بزن نام هر کار چیست، سپس روی آن ضربه بزن تا متوجه شوی.</string>
+    <string name="teacher_name">اموزگار</string>
+    <string name="lawyer_name">وکیل</string>
+    <string name="engineer_name">مهندس</string>
+    <string name="developer_name">برنامه نویس کامپیوتر</string>
+    <string name="doctor_name">دکتر</string>
+    <string name="chef_name">سرآشپز</string>
+</resources>
